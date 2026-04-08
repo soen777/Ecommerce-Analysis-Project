@@ -33,15 +33,21 @@
 ## 📁 项目结构
 ```text
 Ecommerce-Analysis-Project/
-├── data/ # 原始数据（未上传，请从天池下载）
-├── result/ # 输出结果
-│ ├── basic_report.csv # 漏斗指标
-│ ├── rfm_user.csv # RFM用户分层结果
-│ ├── fpgrowth_rules.csv # 关联规则（提升度排序）
-│ └── daily_user.png # 每日访客趋势图
-├── streamlit_app.py # Streamlit 交互看板
-├── requirements.txt # 依赖包列表
-└── README.md # 项目说明
+├── code/                              # 分析代码（Jupyter Notebook）
+│   ├── 01_data_clean.ipynb            # 数据清洗
+│   ├── 02_data_check.ipynb            # 数据质量检查
+│   ├── 03_basic_analysis.ipynb        # 基础分析（漏斗、热销等）
+│   ├── 04_rfm_kmeans.ipynb            # RFM + KMeans 用户分层
+│   ├── 05_fpgrowth.ipynb              # FP-Growth 关联规则挖掘
+│   └── 06_sales_pred.ipynb            # 销量预测（线性回归）
+├── result/                            # 输出结果
+│   ├── basic_report.csv
+│   ├── rfm_user.csv
+│   ├── fpgrowth_rules.csv
+│   └── daily_user.png
+├── streamlit_app.py                   # Streamlit 交互看板
+├── requirements.txt                   # 依赖包列表
+└── README.md                          # 项目说明
 
 ---
 
