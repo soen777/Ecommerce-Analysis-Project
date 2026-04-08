@@ -39,12 +39,9 @@ Ecommerce-Analysis-Project/
 │ ├── rfm_user.csv # RFM用户分层结果
 │ ├── fpgrowth_rules.csv # 关联规则（提升度排序）
 │ └── daily_user.png # 每日访客趋势图
-├── scripts/ # 核心代码（或你的 .ipynb）
 ├── streamlit_app.py # Streamlit 交互看板
 ├── requirements.txt # 依赖包列表
 └── README.md # 项目说明
-```
-```text
 
 ---
 
